@@ -7,7 +7,7 @@
     <!--geotagged images camera-->
     <include>
       <uri>model://geotagged_cam</uri>
-      <pose>0 0 0 0 -1.571 0</pose>
+      <pose>0 0 1.5 3.14 -3.14 0</pose>
     </include>
     <joint name="geotagged_cam_joint" type="fixed">
       <parent>rover::base_link</parent>
