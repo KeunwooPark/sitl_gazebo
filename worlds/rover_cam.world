@@ -14,6 +14,7 @@
     </include>
     <include>
       <uri>model://rover_cam</uri>
+      <pose>-50 -50 20 0 0 0</pose>
     </include>
     <include>
       <uri>model://volcano</uri>
