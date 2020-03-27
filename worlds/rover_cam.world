@@ -10,8 +10,7 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
     <!-- A ground plane -->
-
-
+    
     <include>
       <uri>model://rover_cam</uri>
       <pose>-40 -40 5 0 0 1.54</pose>
@@ -55,4 +54,7 @@
       </camera>
     </gui>
   </world>
+  <scene>
+    <shadows>false</shadows>
+  </scene>
 </sdf>
