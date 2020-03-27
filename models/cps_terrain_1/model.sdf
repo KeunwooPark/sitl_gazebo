@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+
+  <model name="terrain">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <heightmap>
+            <uri>model://cps_terrain_1/png/cps_terrain_129.png</uri>
+            <size>100 100 10</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+
+      <visual name="heightmap_visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <heightmap>
+            <texture>
+              <diffuse>file://media/materials/textures/dirt_diffusespecular.png</diffuse>
+              <normal>file://media/materials/textures/flat_normal.png</normal>
+              <size>5</size>
+            </texture>
+            <texture>
+              <diffuse>file://media/materials/textures/grass_diffusespecular.png</diffuse>
+              <normal>file://media/materials/textures/flat_normal.png</normal>
+              <size>1</size>
+            </texture>
+            <texture>
+              <diffuse>file://media/materials/textures/fungus_diffusespecular.png</diffuse>
+              <normal>file://media/materials/textures/flat_normal.png</normal>
+              <size>1</size>
+            </texture>
+            <uri>model://cps_terrain_1/png/cps_terrain_129.png</uri>
+            <size>100 100 10</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
