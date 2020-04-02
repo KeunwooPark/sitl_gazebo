@@ -5,12 +5,20 @@
     <include>
       <uri>model://sun</uri>
     </include>
+    <!--
     <include>
       <uri>model://ground_plane</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
-    <!-- A ground plane -->
-    
+    <include>
+      <uri>model://asphalt_plane</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://rover_cam</uri>
+      <pose>0 0 0 0 0 1.54</pose>
+    </include>
+    -->
     <include>
       <uri>model://rover_cam</uri>
       <pose>-40 -40 5 0 0 1.54</pose>
@@ -22,6 +30,7 @@
     <include>
       <uri>model://cps_terrain_1</uri>
     </include>
+
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
       <ode>

@@ -4,7 +4,6 @@
     <include>
       <uri>model://rover</uri>
     </include>
-
     <include>
       <uri>model://geotagged_cam</uri>
       <pose>0 0 1.75 0 0 3.14</pose>
