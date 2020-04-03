@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<sdf version='1.5'>
+  <model name='rover_cam'>
+    <include>
+      <uri>model://rover</uri>
+    </include>
+    <include>
+      <uri>model://geotagged_cam</uri>
+      <pose>0 0 1.75 0 0 3.14</pose>
+    </include>
+    <joint name="geotagged_cam_joint" type="fixed">
+      <parent>rover::base_link</parent>
+      <child>geotagged_cam::camera_link</child>
+    </joint>
+  </model>
+</sdf>
