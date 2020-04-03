@@ -10,6 +10,9 @@
       <pose>-40 -40 5 0 0 0</pose>
     </include>
     <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
       <uri>model://cps_terrain_1</uri>
     </include>
 
