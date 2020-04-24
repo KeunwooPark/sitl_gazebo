@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="asphalt_plane">
+    <static>true</static>
+    <link name="r0">
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="r1">
+      <pose frame=''>20 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="r2">
+      <pose frame=''>40 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="r3">
+      <pose frame=''>60 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="r-1">
+      <pose frame=''>-20 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="r-2">
+      <pose frame=''>-40 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="r-3">
+      <pose frame=''>-60 0 0 0 -0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c0">
+      <pose frame=''>0 0 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c1">
+      <pose frame=''>0 20 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c2">
+      <pose frame=''>0 40 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c3">
+      <pose frame=''>0 60 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c-1">
+      <pose frame=''>0 -20 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c-2">
+      <pose frame=''>0 -40 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="c-3">
+      <pose frame=''>0 -60 0 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>5 200 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://asphalt_plane/materials/scripts</uri>
+            <uri>model://asphalt_plane/materials/textures</uri>
+            <name>vrc/asphalt</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
